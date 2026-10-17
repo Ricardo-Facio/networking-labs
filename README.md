@@ -10,32 +10,45 @@ Este projeto também faz parte do meu portfólio de Infraestrutura de TI.
 
 ## Ferramentas
 
-* Cisco Packet Tracer
-* Git
-* GitHub
-* Git Bash
+- Cisco Packet Tracer
+- Git
+- GitHub
+- Git Bash
 
 ## Laboratórios
 
-| Lab | Tema         | Status             |
-| --- | ------------ | ------------------ |
-| 01  | Primeira LAN | Em desenvolvimento |
+| Lab | Tema | Status |
+| --- | --- | --- |
+| 01 | Primeira LAN | Concluído |
+| 02 | Roteamento entre redes | Concluído |
+| 03 | Rotas estáticas | Concluído |
+| 04 | Rota padrão | Concluído |
+| 05 | DHCP em rede local | Concluído |
 
-## Conceitos que serão praticados
+## Conceitos praticados
 
-* IPv4
-* Máscara de rede
-* Interfaces de rede
-* Endereço MAC
-* ARP
-* ICMP
-* Switching
-* Gateway
-* Roteamento
-* DHCP
-* DNS
-* VLANs
-* NAT
+- IPv4
+- Máscaras de rede
+- Sub-redes
+- Interfaces de rede
+- Endereços MAC
+- ARP
+- ICMP
+- Switching
+- Gateway padrão
+- Roteamento
+- Tabela de roteamento
+- Redes diretamente conectadas
+- Rotas estáticas
+- Next hop
+- Rota padrão
+- DHCP
+- Endereçamento dinâmico
+- Endereçamento estático
+- Pool DHCP
+- DNS
+- Serviços de rede
+- Portas TCP/UDP
 
 ## Estrutura do projeto
 
@@ -43,10 +56,27 @@ Este projeto também faz parte do meu portfólio de Infraestrutura de TI.
 networking-labs/
 ├── README.md
 └── labs/
-    └── lab-01-primeira-lan/
+    ├── lab-01-primeira-lan/
+    │   ├── README.md
+    │   ├── arquivos/
+    │   └── imagens/
+    │
+    ├── lab-02-roteamento-entre-redes/
+    │   ├── README.md
+    │   ├── arquivos/
+    │   └── imagens/
+    │
+    ├── lab-03-rotas-estaticas/
+    │   ├── README.md
+    │   ├── arquivos/
+    │   └── imagens/
+    │
+    ├── lab-04-rota-padrao/
+    │   ├── README.md
+    │   ├── arquivos/
+    │   └── imagens/
+    │
+    └── lab-05-DHCP-rede-local/
         ├── README.md
         ├── arquivos/
         └── imagens/
-```
-
-Cada laboratório possuirá documentação própria contendo objetivo, topologia, endereçamento, testes realizados, resultados e conceitos estudados.
